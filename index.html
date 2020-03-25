@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
     </head>
     <body>
-        <p> test </p>
+        <form action="https://formspree.io/mvoqlyop" method="post">
+            <table>
+                <tr>
+                    <th class="postcard" align="left"><h1>My Postcard</h1></th>
+                    <th class="postcard" align="right"><img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" height="50" width="50"></th>
+                </tr>
+                <tr>
+                    <td class="postcard">
+                    Look how awsome, this<br> is a postcard that I created using HTML,<br> CSS and my 
+                    incredible skills
+                    </td>
+                    <td class="postcard">
+                        <input class="postcard" type="text" placeholder="some name" name="full name"></input><br>
+                        <input class="postcard" type="email" placeholder="some email" name="_replyto"></input><br>
+                        <input class="postcard" type="text" placeholder="some content" name="content"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="postcard">
+                        This is cool, I hope to do more stuff.
+                    </td>
+                </tr>
+            <table>
+
+            <input type="submit" value="send my postcard" class="button"></input>
+        </form>    
     </body>
 
 </html>

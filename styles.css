@@ -1,0 +1,35 @@
+.postcard{
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+
+}
+
+.postcard h1{
+
+    padding: none;
+}
+
+.postcard input[type = text]{
+    border: none; border-bottom: 1px solid grey;
+}
+
+.postcard input[type = email]
+{
+    border: none; border-bottom: 1px solid grey;
+
+}
+
+
+.postcard input[type = submit]{
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.button{
+    position: absolute;
+    left: 200px;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: 'Handlee', cursive;
+}
